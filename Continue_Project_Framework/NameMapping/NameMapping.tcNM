@@ -1,0 +1,148 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root Signature="{5DCBAC3B-D39C-497C-9BE8-744CBADD37AA}" NameMappingVersion="7" SaveImages="0">
+	<Storages Current="0">
+		<Child Name="Default Configuration" />
+	</Storages>
+	<Nodes Name="NameMapping" Key="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Children>
+			<Child Name="Sys" Key="{85D91C1B-2185-469F-A83F-53CA3697393C}">
+				<TypeInfo Item0="{200F45F4-4FE9-4E40-9B9A-709E0C668493}" />
+				<Properties>
+					<Property Name="Name">
+						<Value Value="Sys" />
+					</Property>
+				</Properties>
+				<Children>
+					<Child Name="browser" Key="{FFB67394-D440-4FDD-899D-77E217B4368E}">
+						<TypeInfo Item0="{CE396A25-11E1-4AD2-8253-FAE9B3650DF7}" />
+						<Properties>
+							<Property Name="ObjectType">
+								<Value Value="Browser" />
+							</Property>
+						</Properties>
+						<Children>
+							<Child Name="pageSwagLabs" Key="{638A813A-2AFA-45AC-AC66-4C073067E4EC}">
+								<Image FileName="-409035715" Left="9" Top="117" Right="1929" Bottom="1029" />
+								<TypeInfo Item0="{39FBB5B1-7E5B-4794-8190-DFD6431A9886}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://www.saucedemo.com/" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUserName" Key="{B33926AD-42CA-4308-9534-13759A80B3FA}">
+										<Image FileName="-409035715" Left="787" Top="309" Right="1152" Bottom="357" />
+										<TypeInfo Item0="{0DC5F28F-1810-4379-959F-F90248184D1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#user-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;user-name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//form//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;input_error&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login_button_container&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="textboxPassword" Key="{4ED05F0E-AEC2-484A-BF1E-4F7E81B3DFF1}">
+										<Image FileName="-1659563166" Left="787" Top="422" Right="1152" Bottom="478" />
+										<TypeInfo Item0="{3215DB17-017A-4240-9F53-FC2C52501918}" />
+										<Selectors>
+											<Selector>
+												<Value Value="xpath=//*[@id=&quot;password&quot;]" />
+											</Selector>
+											<Selector>
+												<Value Value="xpath=//div[contains(@class, &apos;error-message-container&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+									<Child Name="submitbuttonLogin" Key="{095681FE-0337-4D35-8424-261794934C1C}">
+										<Image FileName="2055141640" Left="787" Top="485" Right="1152" Bottom="546" />
+										<TypeInfo Item0="{79CFF59B-CED6-4638-9C4D-998FD05F120E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;login-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#login-button" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;login-button&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@value=&apos;Login&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[contains(@class, &apos;submit-button&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login_button_container&apos;]//form/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//form/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+							<Child Name="pageModulenotfounderrorWithSauSc" Key="{729100AF-7690-4FDF-B956-EDF1B4DDB4FC}">
+								<Image FileName="323592955" Left="14" Top="109" Right="1934" Bottom="1089" />
+								<TypeInfo Item0="{39FBB5B1-7E5B-4794-8190-DFD6431A9886}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="https://claude.ai/chat/53e1472f-ae75-49b5-a52c-edb3505e92d0" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textnodeLoginStepsFromOneLo" Key="{58DC373F-2DE4-4A14-99E2-988B961FAE97}">
+										<Image FileName="323592955" Left="758" Top="330" Right="1042" Bottom="353" />
+										<TypeInfo Item0="{3215DB17-017A-4240-9F53-FC2C52501918}" />
+										<Selectors>
+											<Selector>
+												<Value Value="//span[.=&apos;# Login steps (from one.lo)&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[12]//pre/code/span[2]/span[contains(@class, &apos;token&apos;)]" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
+						</Children>
+					</Child>
+				</Children>
+			</Child>
+		</Children>
+	</Nodes>
+	<LogicalNodes Name="Aliases" Owner="{BE401E45-B2D6-4FBA-931A-C2117D5C51AD}">
+		<Child Name="browser" Owner="{FFB67394-D440-4FDD-899D-77E217B4368E}">
+			<Child Name="pageSwagLabs" Owner="{638A813A-2AFA-45AC-AC66-4C073067E4EC}">
+				<Child Name="textboxUserName" Owner="{B33926AD-42CA-4308-9534-13759A80B3FA}" />
+				<Child Name="textboxPassword" Owner="{4ED05F0E-AEC2-484A-BF1E-4F7E81B3DFF1}" />
+				<Child Name="submitbuttonLogin" Owner="{095681FE-0337-4D35-8424-261794934C1C}" />
+			</Child>
+			<Child Name="pageModulenotfounderrorWithSauSc" Owner="{729100AF-7690-4FDF-B956-EDF1B4DDB4FC}">
+				<Child Name="textnodeLoginStepsFromOneLo" Owner="{58DC373F-2DE4-4A14-99E2-988B961FAE97}" />
+			</Child>
+		</Child>
+	</LogicalNodes>
+</Root>

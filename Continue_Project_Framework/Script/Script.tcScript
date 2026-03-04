@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Root signature="{9252F941-DB23-4FCA-AA50-858B33BB4A19}" version="11.40">
+	<children>
+		<child name="Unit1" key="{75D203FB-8E0C-400D-A8E7-C4EB0C0CD1F0}" path="Unit1.py" />
+		<child name="request" key="{F3FB2731-4524-41D2-9CDA-B53805D7D8CF}" path="request.py" />
+		<child name="nu" key="{77DDD956-73C7-4268-8E23-9878E8E49C57}" path="nu.py" />
+		<child name="pan" key="{022BBD07-1F57-4A40-B99B-EFD4630DAE7A}" path="pan.py" />
+		<child name="config" key="{D2CFC75C-B837-44D2-A3D9-E034A546EB19}" path="config.py" />
+		<child name="base_page" key="{E7826AEC-0841-4F7F-AB36-169430CDA168}" path="base_page.py" />
+		<child name="login_page" key="{2A1E794C-54F5-4A55-80FB-4BC6A0A89D74}" path="login_page.py" />
+		<child name="test_login" key="{D6135B4D-076B-4511-95C9-C0FA25D4EBB8}" path="test_login.py" />
+	</children>
+</Root>
