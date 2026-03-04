@@ -34,7 +34,7 @@
 								</Properties>
 								<Children>
 									<Child Name="textboxUserName" Key="{B33926AD-42CA-4308-9534-13759A80B3FA}">
-										<Image FileName="-409035715" Left="787" Top="309" Right="1152" Bottom="357" />
+										<Image FileName="-245786693" Left="787" Top="301" Right="1152" Bottom="349" />
 										<TypeInfo Item0="{0DC5F28F-1810-4379-959F-F90248184D1E}" />
 										<Selectors>
 											<Selector>
@@ -47,7 +47,7 @@
 												<Value Value="//input[@name=&apos;user-name&apos;]" />
 											</Selector>
 											<Selector>
-												<Value Value="//form//input[@type=&apos;text&apos;]" />
+												<Value Value="//input[@type=&apos;text&apos;]" />
 											</Selector>
 											<Selector>
 												<Value Value="//div/input[contains(@class, &apos;input_error&apos;)]" />
@@ -127,6 +127,47 @@
 									</Child>
 								</Children>
 							</Child>
+							<Child Name="page" Key="{78D59EAE-25FD-462D-AD53-E99867415000}">
+								<Image FileName="208902257" Left="14" Top="109" Right="1924" Bottom="1024" />
+								<TypeInfo Item0="{39FBB5B1-7E5B-4794-8190-DFD6431A9886}" />
+								<Properties>
+									<Property Name="ObjectType">
+										<Value Value="Page" />
+									</Property>
+									<Property Name="URL">
+										<Value Value="" />
+									</Property>
+								</Properties>
+								<Children>
+									<Child Name="textboxUserName" Key="{585E57C5-75DB-417B-A7F3-EBBB3088EA50}">
+										<Image FileName="208902257" Left="787" Top="301" Right="1152" Bottom="349" />
+										<TypeInfo Item0="{0DC5F28F-1810-4379-959F-F90248184D1E}" />
+										<Selectors>
+											<Selector>
+												<Value Value="[data-test=&apos;username&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="#user-name" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@name=&apos;user-name&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//input[@type=&apos;text&apos;]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input[contains(@class, &apos;input_error&apos;)]" />
+											</Selector>
+											<Selector>
+												<Value Value="//div[@id=&apos;login_button_container&apos;]//div/input" />
+											</Selector>
+											<Selector>
+												<Value Value="//div/input" />
+											</Selector>
+										</Selectors>
+									</Child>
+								</Children>
+							</Child>
 						</Children>
 					</Child>
 				</Children>
@@ -142,6 +183,9 @@
 			</Child>
 			<Child Name="pageModulenotfounderrorWithSauSc" Owner="{729100AF-7690-4FDF-B956-EDF1B4DDB4FC}">
 				<Child Name="textnodeLoginStepsFromOneLo" Owner="{58DC373F-2DE4-4A14-99E2-988B961FAE97}" />
+			</Child>
+			<Child Name="page" Owner="{78D59EAE-25FD-462D-AD53-E99867415000}">
+				<Child Name="textboxUserName" Owner="{585E57C5-75DB-417B-A7F3-EBBB3088EA50}" />
 			</Child>
 		</Child>
 	</LogicalNodes>
